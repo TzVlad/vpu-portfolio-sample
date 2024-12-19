@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio/home_page.dart';
+import 'package:portfolio/router.dart';
+import 'package:portfolio/ui/pages/home_page.dart';
 
 const darkColor = Color(0xFF21243D);
 const primaryColor = Color(0xFFFF6464);
 
 void main() {
+  usePathUrlStrategy();
   runApp(const MainApp());
 }
 
@@ -14,13 +17,15 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: GoogleFonts.heebo().fontFamily,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: HomePage()
+      routeInformationParser: router.routeInformationParser,
+      routeInformationProvider: router.routeInformationProvider,
+      routerDelegate: router.routerDelegate,
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class TopMenuWidget extends StatelessWidget {
   const TopMenuWidget({
@@ -25,7 +26,7 @@ class TopMenuWidget extends StatelessWidget {
         ),
         TextButton(
           onPressed: () {
-            
+            context.go("/blog");
           },
           child: Text(
             "Blog", 
