@@ -34,25 +34,25 @@ class HomePage extends StatelessWidget {
                       children: [
                         IconButton(
                           onPressed: () {
-                            launchUrlString("https://facebook.com/oleg.novosad.35");
+                            launchUrlString("https://facebook.com");
                           },
                           icon: Image.asset("icons/fb.png", width: 30, height: 30)),
                         SizedBox(width: 16),
                         IconButton(
                           onPressed: () {
-                            launchUrlString("https://instagram.com/oleg_newgarden");
+                            launchUrlString("https://instagram.com");
                           },
                           icon: Image.asset("icons/insta.png", width: 30, height: 30)),
                         SizedBox(width: 16),
                         IconButton(
                           onPressed: () {
-                            launchUrlString("https://x.com/olegnovosad");
+                            launchUrlString("https://x.com");
                           },
                           icon: Image.asset("icons/Group.png", width: 30, height: 30)),
                         SizedBox(width: 16),
                         IconButton(
                           onPressed: () {
-                            launchUrlString("https://linkedin.com/in/oleg-novosad-11864783");
+                            launchUrlString("https://linkedin.com");
                           },
                           icon: Image.asset("icons/Linkedin.png", width: 30, height: 30)),
                       ],

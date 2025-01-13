@@ -15,7 +15,7 @@ class AboutMeWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Hi, I'm Oleg, Software Architect",
+                "Hi! i am Vlad, Software Developer ",
                 style: TextStyle(
                   fontSize: 44,
                   fontWeight: FontWeight.bold,
