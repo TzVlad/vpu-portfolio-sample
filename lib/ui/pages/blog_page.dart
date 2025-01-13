@@ -35,152 +35,157 @@ class BlogPage extends StatelessWidget {
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.only(left: 235, top: 160, bottom: 24, right: 235),
+        padding:
+            const EdgeInsets.only(left: 235, top: 160, bottom: 24, right: 235),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(width: 50,),
+            const SizedBox(
+              width: 50,
+            ),
             const Text(
               'Blog',
               style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 24),
-            
-           Expanded(
-  child: Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: [
-      const Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            "UI Interactions of the week",
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "UI Interactions of the week",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        "12 Feb 2019 | Express, Handlebars",
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+                        style: TextStyle(fontSize: 14),
+                      ),
+                      SizedBox(height: 24),
+                      Divider(),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "UI Interactions of the week",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        "12 Feb 2019 | Express, Handlebars",
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+                        style: TextStyle(fontSize: 14),
+                      ),
+                      SizedBox(height: 24),
+                      Divider(),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "UI Interactions of the week",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        "12 Feb 2019 | Express, Handlebars",
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+                        style: TextStyle(fontSize: 14),
+                      ),
+                      SizedBox(height: 24),
+                      Divider(),
+                    ],
+                  ),
+                  SizedBox(height: 16),
+                  const Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "UI Interactions of the week",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        "12 Feb 2019 | Express, Handlebars",
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+                        style: TextStyle(fontSize: 14),
+                      ),
+                      SizedBox(height: 24),
+                    ],
+                  ),
+                ],
+              ),
             ),
-          ),
-          SizedBox(height: 4),
-          Text(
-            "12 Feb 2019 | Express, Handlebars",
-            style: TextStyle(color: Colors.grey),
-          ),
-          SizedBox(height: 8),
-          Text(
-            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-            style: TextStyle(fontSize: 14),
-          ),
-          SizedBox(height: 24),
-          Divider(),
-        ],
-      ),
-      const SizedBox(height: 16),
-      const Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            "UI Interactions of the week",
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          SizedBox(height: 4),
-          Text(
-            "12 Feb 2019 | Express, Handlebars",
-            style: TextStyle(color: Colors.grey),
-          ),
-          SizedBox(height: 8),
-          Text(
-            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-            style: TextStyle(fontSize: 14),
-          ),
-          SizedBox(height: 24),
-          Divider(),
-        ],
-      ),
-      const SizedBox(height: 16),
-      const Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            "UI Interactions of the week",
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          SizedBox(height: 4),
-          Text(
-            "12 Feb 2019 | Express, Handlebars",
-            style: TextStyle(color: Colors.grey),
-          ),
-          SizedBox(height: 8),
-          Text(
-            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-            style: TextStyle(fontSize: 14),
-          ),
-          SizedBox(height: 24),
-          Divider(),
-        ],
-      ),
-      SizedBox(height: 16),
-      const Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            "UI Interactions of the week",
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          SizedBox(height: 4),
-          Text(
-            "12 Feb 2019 | Express, Handlebars",
-            style: TextStyle(color: Colors.grey),
-          ),
-          SizedBox(height: 8),
-          Text(
-            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-            style: TextStyle(fontSize: 14),
-          ),
-          SizedBox(height: 24),
-        ],
-      ),
-    ],
-  ),
-),
             const Divider(),
             const SizedBox(height: 16),
             Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        IconButton(
-                          onPressed: () {
-                            launchUrlString("https://facebook.com");
-                          },
-                          icon: Image.asset("icons/fb.png", width: 30, height: 30)),
-                        SizedBox(width: 16),
-                        IconButton(
-                          onPressed: () {
-                            launchUrlString("https://instagram.com");
-                          },
-                          icon: Image.asset("icons/insta.png", width: 30, height: 30)),
-                        SizedBox(width: 16),
-                        IconButton(
-                          onPressed: () {
-                            launchUrlString("https://x.com");
-                          },
-                          icon: Image.asset("icons/Group.png", width: 30, height: 30)),
-                        SizedBox(width: 16),
-                        IconButton(
-                          onPressed: () {
-                            launchUrlString("https://linkedin.com");
-                          },
-                          icon: Image.asset("icons/Linkedin.png", width: 30, height: 30)),
-                      ],
-                    ),
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                IconButton(
+                    onPressed: () {
+                      launchUrlString("https://facebook.com");
+                    },
+                    icon: Image.asset("icons/fb.png", width: 30, height: 30)),
+                SizedBox(width: 16),
+                IconButton(
+                    onPressed: () {
+                      launchUrlString("https://instagram.com");
+                    },
+                    icon:
+                        Image.asset("icons/insta.png", width: 30, height: 30)),
+                SizedBox(width: 16),
+                IconButton(
+                    onPressed: () {
+                      launchUrlString("https://x.com");
+                    },
+                    icon:
+                        Image.asset("icons/Group.png", width: 30, height: 30)),
+                SizedBox(width: 16),
+                IconButton(
+                    onPressed: () {
+                      launchUrlString("https://linkedin.com");
+                    },
+                    icon: Image.asset("icons/Linkedin.png",
+                        width: 30, height: 30)),
+              ],
+            ),
             const SizedBox(height: 16),
             const Center(
               child: Text(
