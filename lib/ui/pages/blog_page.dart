@@ -34,9 +34,8 @@ class BlogPage extends StatelessWidget {
           ),
         ],
       ),
-      body: Padding(
-        padding:
-            const EdgeInsets.only(left: 235, top: 160, bottom: 24, right: 235),
+      body: const Scaffold(
+        
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -48,112 +47,135 @@ class BlogPage extends StatelessWidget {
               style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 24),
-            Expanded(
+            const Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Column(
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         "UI Interactions of the week",
                         style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 30,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
-                      SizedBox(height: 4),
+                      SizedBox(height: 16),
                       Text(
                         "12 Feb 2019 | Express, Handlebars",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(
+                          color: Colors.grey,
+                          fontSize: 20,
+                        ),
                       ),
-                      SizedBox(height: 8),
+                      SizedBox(height: 15),
                       Text(
                         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
                         style: TextStyle(fontSize: 14),
                       ),
-                      SizedBox(height: 24),
-                      Divider(),
+                      SizedBox(height: 29),
+                      Divider(
+                        indent: 0,
+                        endIndent: 681,
+                      ),
                     ],
                   ),
-                  const SizedBox(height: 16),
-                  const Column(
+                  SizedBox(height: 32),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         "UI Interactions of the week",
                         style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 30,
+                          fontWeight: FontWeight.w500,
+                          fontFamily: String.fromEnvironment("Heebo"),
                         ),
                       ),
-                      SizedBox(height: 4),
+                      SizedBox(height: 16),
                       Text(
                         "12 Feb 2019 | Express, Handlebars",
                         style: TextStyle(color: Colors.grey),
                       ),
-                      SizedBox(height: 8),
+                      SizedBox(height: 15),
                       Text(
                         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
                         style: TextStyle(fontSize: 14),
                       ),
-                      SizedBox(height: 24),
-                      Divider(),
+                      SizedBox(height: 29),
+                      Divider(
+                        indent: 0,
+                        endIndent: 681,
+                      ),
                     ],
                   ),
-                  const SizedBox(height: 16),
-                  const Column(
+                  SizedBox(height: 32),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         "UI Interactions of the week",
                         style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 30,
+                          fontWeight: FontWeight.w500,
+                          fontFamily: String.fromEnvironment("Heebo"),
                         ),
                       ),
-                      SizedBox(height: 4),
+                      SizedBox(height: 16),
                       Text(
                         "12 Feb 2019 | Express, Handlebars",
                         style: TextStyle(color: Colors.grey),
                       ),
-                      SizedBox(height: 8),
+                      SizedBox(height: 15),
                       Text(
                         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
                         style: TextStyle(fontSize: 14),
                       ),
-                      SizedBox(height: 24),
-                      Divider(),
+                      SizedBox(height: 29),
+                      Divider(
+                        indent: 0,
+                        endIndent: 681,
+                      ),
                     ],
                   ),
-                  SizedBox(height: 16),
-                  const Column(
+                  SizedBox(height: 32),
+                  Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         "UI Interactions of the week",
                         style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 30,
+                          fontWeight: FontWeight.w500,
+                          fontFamily: String.fromEnvironment("Heebo"),
                         ),
                       ),
-                      SizedBox(height: 4),
+                      SizedBox(height: 16),
                       Text(
                         "12 Feb 2019 | Express, Handlebars",
                         style: TextStyle(color: Colors.grey),
                       ),
-                      SizedBox(height: 8),
+                      SizedBox(height: 15),
                       Text(
                         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
                         style: TextStyle(fontSize: 14),
                       ),
-                      SizedBox(height: 24),
+                      SizedBox(height: 29),
+                      Divider(
+                        indent: 0,
+                        endIndent: 681,
+                      ),
+                      Padding(padding: EdgeInsets.only(top: 52))
                     ],
                   ),
                 ],
               ),
             ),
-            const Divider(),
+            const Divider(
+              indent: 0,
+              endIndent: 681,
+            ),
             const SizedBox(height: 16),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -163,21 +185,21 @@ class BlogPage extends StatelessWidget {
                       launchUrlString("https://facebook.com");
                     },
                     icon: Image.asset("icons/fb.png", width: 30, height: 30)),
-                SizedBox(width: 16),
+                const SizedBox(width: 16),
                 IconButton(
                     onPressed: () {
                       launchUrlString("https://instagram.com");
                     },
                     icon:
                         Image.asset("icons/insta.png", width: 30, height: 30)),
-                SizedBox(width: 16),
+                const SizedBox(width: 16),
                 IconButton(
                     onPressed: () {
                       launchUrlString("https://x.com");
                     },
                     icon:
                         Image.asset("icons/Group.png", width: 30, height: 30)),
-                SizedBox(width: 16),
+                const SizedBox(width: 16),
                 IconButton(
                     onPressed: () {
                       launchUrlString("https://linkedin.com");
